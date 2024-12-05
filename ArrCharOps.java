@@ -170,7 +170,7 @@ public class ArrCharOps {
             return -2;
         } if (str1.equals("") && str2.equals("")) {
             return 0;
-        
+        }
         int min = Math.min(str1.length(), str2.length());
         for (int i = 0; i <min; i++) {
             char char1 = str1.charAt(i);
