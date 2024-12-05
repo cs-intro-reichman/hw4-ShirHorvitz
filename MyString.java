@@ -36,14 +36,14 @@ public class MyString {
         }
 
         for (int i = 0; i <= str1.length() - str2.length(); i++) {
-            boolean match = true;
+            boolean fit = true;
             for (int j = 0; j < str2.length(); j++) {
                 if (str1.charAt(i + j) != str2.charAt(j)) {
-                    match = false;
+                    fit = false;
                     break;
                 }
             }
-            if (match) {
+            if (fit) {
                 return true;
             }
         }
